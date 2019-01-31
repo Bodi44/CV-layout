@@ -1,0 +1,27 @@
+.main-content__row {
+  display: flex;
+  flex-direction: row; }
+.main-content__header {
+  border-bottom: 1.5px solid black; }
+.main-content__section_bigger {
+  width: 60%; }
+.main-content__section_smaller {
+  margin-left: auto;
+  width: 35%; }
+
+.contents__vertical-line {
+  border: none;
+  border-right: black dashed 1.3px;
+  background-color: #fff;
+  color: #fff;
+  width: 1px; }
+  .contents__vertical-line_right {
+    margin-left: 15px; }
+.contents__row {
+  min-height: 70px; }
+  .contents__row_lower {
+    min-height: 60px; }
+  .contents__row_no-height {
+    min-height: auto; }
+
+/*# sourceMappingURL=main-content.css.map */

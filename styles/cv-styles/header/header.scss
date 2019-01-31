@@ -1,0 +1,119 @@
+.header {
+  &__left-content {
+    width: 62%;
+  }
+
+  &__right-content {
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    width: 30%;
+  }
+}
+
+.user {
+  &__name {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    padding: 0;
+    margin: 25px 0;
+    font-size: 7.5px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: row;
+    font-size: 7px;
+  }
+
+  &__logo {
+    height: 92%;
+    width: 70%;
+    border: 1px solid lightskyblue;
+  }
+}
+
+.contacts {
+  &__row {
+    margin: 0 50px 0 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__address {
+    display: block;
+    position: relative;
+    color: white;
+    margin-bottom: 5px;
+
+    &:before {
+      display: block;
+      content: "";
+      width: 9px;
+      height: 9px;
+      top: -1px;
+      left: -12px;
+      position: absolute;
+      background: url("/assets/home_icon.png");
+      background-size: contain;
+    }
+  }
+
+  &__phone {
+    display: block;
+    position: relative;
+    color: white;
+
+    &:before {
+      content: "";
+      display: block;
+      top: -1px;
+      position: absolute;
+      left: -12px;
+      width: 10px;
+      height: 10px;
+      background: url("/assets/phone_icon.png");
+      background-size: contain;
+    }
+  }
+
+  &__email {
+    display: block;
+    position: relative;
+    color: white;
+    margin-bottom: 5px;
+
+    &:before{
+      content: "";
+      display: block;
+      top: -1px;
+      position: absolute;
+      left: -12px;
+      width: 10px;
+      height: 10px;
+      background: url("/assets/mail_icon.png");
+      background-size: contain;
+    }
+  }
+
+  &__git {
+    display: block;
+    position: relative;
+    color: white;
+
+    &:before{
+      content: "";
+      display: block;
+      top: -1px;
+      position: absolute;
+      left: -12px;
+      width: 10px;
+      height: 10px;
+      background: url("/assets/git_icon.png");
+      background-size: contain;
+    }
+  }
+}

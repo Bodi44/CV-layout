@@ -1,0 +1,47 @@
+.main-content {
+  &__row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__header {
+    border-bottom: 1.5px solid black;
+  }
+
+  &__section {
+    &_bigger {
+      width: 60%;
+    }
+
+    &_smaller {
+      margin-left: auto;
+      width: 35%;
+    }
+  }
+}
+
+.contents {
+  &__vertical-line {
+    border: none;
+    border-right: black dashed 1.3px;
+    background-color: #fff;
+    color: #fff;
+    width: 1px;
+
+    &_right {
+      margin-left: 15px;
+    }
+  }
+
+  &__row {
+    min-height: 70px;
+
+    &_lower {
+      min-height: 60px;
+    }
+
+    &_no-height {
+      min-height: auto;
+    }
+  }
+}

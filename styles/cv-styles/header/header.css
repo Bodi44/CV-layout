@@ -1,0 +1,88 @@
+.header__left-content {
+  width: 62%; }
+.header__right-content {
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  width: 30%; }
+
+.user__name {
+  font-size: 26px;
+  text-transform: uppercase; }
+.user__description {
+  padding: 0;
+  margin: 25px 0;
+  font-size: 7.5px; }
+.user__contacts {
+  display: flex;
+  flex-direction: row;
+  font-size: 7px; }
+.user__logo {
+  height: 92%;
+  width: 70%;
+  border: 1px solid lightskyblue; }
+
+.contacts__row {
+  margin: 0 50px 0 12px;
+  display: flex;
+  flex-direction: column; }
+.contacts__address {
+  display: block;
+  position: relative;
+  color: white;
+  margin-bottom: 5px; }
+  .contacts__address:before {
+    display: block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    top: -1px;
+    left: -12px;
+    position: absolute;
+    background: url("/assets/home_icon.png");
+    background-size: contain; }
+.contacts__phone {
+  display: block;
+  position: relative;
+  color: white; }
+  .contacts__phone:before {
+    content: "";
+    display: block;
+    top: -1px;
+    position: absolute;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    background: url("/assets/phone_icon.png");
+    background-size: contain; }
+.contacts__email {
+  display: block;
+  position: relative;
+  color: white;
+  margin-bottom: 5px; }
+  .contacts__email:before {
+    content: "";
+    display: block;
+    top: -1px;
+    position: absolute;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    background: url("/assets/mail_icon.png");
+    background-size: contain; }
+.contacts__git {
+  display: block;
+  position: relative;
+  color: white; }
+  .contacts__git:before {
+    content: "";
+    display: block;
+    top: -1px;
+    position: absolute;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    background: url("/assets/git_icon.png");
+    background-size: contain; }
+
+/*# sourceMappingURL=header.css.map */

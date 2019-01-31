@@ -1,0 +1,27 @@
+.cv {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 842px;
+  width: 595px;
+  overflow: hidden;
+  background-color: white; }
+  .cv__header {
+    padding: 20px 30px 7px;
+    color: white;
+    display: flex;
+    background-color: #232b2b;
+    height: 15%; }
+  .cv__main-content {
+    padding: 20px 30px 7px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; }
+  .cv__footer {
+    color: transparent;
+    height: 5%;
+    flex-shrink: 0;
+    background-color: #232b2b; }
+
+/*# sourceMappingURL=cv.css.map */
